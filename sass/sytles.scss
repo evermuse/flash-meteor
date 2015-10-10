@@ -1,7 +1,25 @@
 $mainColor : white;
+$textColor : black;
 
 body {
 
   background-color: $mainColor;
+
+}
+
+header {
+
+  height: 50px;
+  width: 100%;
+  background-color: lightblue;
+
+}
+
+h1 {
+
+  color: $textColor;
+  line-height: 100%;
+  margin: 0px;
+  padding: 0px;
 
 }

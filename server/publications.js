@@ -1,5 +1,5 @@
 Meteor.publish('cards', function() {
 
-  return Tasks.find();
+  return Cards.find();
 
 });
